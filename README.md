@@ -87,3 +87,40 @@ npm install
 
 # 4️⃣ Arranca el servidor
 npm run dev
+
+## 🧠 Tecnologías principales
+
+| Categoría | Tecnología | Descripción |
+|------------|-------------|--------------|
+| 🖥️ Frontend | **React + TypeScript** | Framework de interfaz + tipado fuerte |
+| 🧭 Rutas | **React Router (v7)** | Navegación SPA moderna con rutas protegidas |
+| 🧠 Estado global | **Redux Toolkit** | Gestión global simple, clara y potente |
+| 🔐 Autenticación | **Firebase Auth** | Registro, login y roles de usuario |
+| ☁️ Base de datos | **Cloud Firestore** | Colecciones y documentos en la nube |
+| 🎨 Estilos | **TailwindCSS** | Estilos rápidos y responsivos |
+| 💥 Alertas | **SweetAlert2** | Popups elegantes y personalizables |
+
+---
+
+## 🧑‍💻 Scripts disponibles
+
+| Comando | Acción |
+|----------|--------|
+| `npm run dev` | Inicia la app en modo desarrollo 🚀 |
+| `npm run build` | Genera la versión optimizada 📦 |
+| `npm run preview` | Previsualiza la build localmente 👀 |
+| `npm run test` | Ejecuta pruebas con Vitest 🧪 |
+
+---
+
+## 🔐 Roles y permisos
+
+| Rol | Permisos |
+|------|-----------|
+| 👤 Usuario | Puede iniciar sesión, ver y gestionar sus vehículos |
+| 🛠️ Admin | Acceso total (puede entrar en `/ajustes`) |
+
+Si un usuario intenta acceder a `/ajustes` sin permisos...  
+> 😈 Recibirá un “🚫 No tienes acceso” más educado que el de cualquier API en producción.
+
+---
