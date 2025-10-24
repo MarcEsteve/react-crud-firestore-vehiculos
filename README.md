@@ -21,6 +21,8 @@ Una **webapp moderna** que permite gestionar vehículos y usuarios al estilo DGT
 ---
 
 ## 🏗️ Arquitectura del proyecto
+
+```bash
 src/
 ├── app/
 │ └── store.ts
@@ -63,7 +65,7 @@ src/
 │
 ├── firebaseConfig.ts
 └── App.tsx
-
+```
 
 
 > 🪄 Inspirado en la estructura modular de aplicaciones empresariales modernas,  
@@ -87,6 +89,7 @@ npm install
 
 # 4️⃣ Arranca el servidor
 npm run dev
+```
 
 ## 🧠 Tecnologías principales
 
